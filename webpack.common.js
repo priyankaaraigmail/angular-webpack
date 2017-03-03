@@ -3,7 +3,6 @@ var HtmlWebpackPlugin = require('html-webpack-plugin')
 var ExtractTextPlugin = require('extract-text-webpack-plugin')
 
 const path = require('path')
-const rootDir = path.resolve(__dirname, '..')
 
 module.exports = {
   entry: {
